@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://deva.wiki:13306/goody?serverTimezone=Asia/Shanghai
+    username: root
+    password: Jgt.2019
+
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+server:
+  tomcat:
+    max-threads: 500
+    accept-count: 300
